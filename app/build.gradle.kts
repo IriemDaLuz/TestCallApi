@@ -60,17 +60,20 @@ dependencies {
     // https://mvnrepository.com/artifact/com.squareup.retrofit2/retrofit
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
 
-
     // https://mvnrepository.com/artifact/com.squareup.retrofit2/converter-gson
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
 
     // https://mvnrepository.com/artifact/io.coil-kt/coil
     runtimeOnly("io.coil-kt:coil:2.7.0")
 
-    // https://mvnrepository.com/artifact/androidx.compose.runtime/runtime-livedata
-    runtimeOnly("androidx.compose.runtime:runtime-livedata:1.7.6")
+    // https://mvnrepository.com/artifact/androidx.lifecycle/lifecycle-livedata
+    runtimeOnly("androidx.lifecycle:lifecycle-livedata:2.8.7")
 
+    // https://mvnrepository.com/artifact/androidx.lifecycle/lifecycle-viewmodel-compose
+    runtimeOnly("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
 
+    // https://mvnrepository.com/artifact/androidx.lifecycle/lifecycle-viewmodel
+    runtimeOnly("androidx.lifecycle:lifecycle-viewmodel:2.8.7")
 
 
 }
