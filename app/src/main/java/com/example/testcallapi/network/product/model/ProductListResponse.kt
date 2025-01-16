@@ -7,5 +7,4 @@ data class ProductListResponse (
     @SerializedName("total") val total: Int,
     @SerializedName("skip") val skip: Int,
     @SerializedName("limit") val limit:Int
-
 )
