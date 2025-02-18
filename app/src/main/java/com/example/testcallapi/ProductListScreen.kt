@@ -36,7 +36,7 @@ fun ProductListView(
     context: Context
 ) {
     ProductList(title, productList, Icons.Filled.Add) { product: ProductResponse ->
-        Toast.makeText(context, "Producto añadido", Toast.LENGTH_SHORT).show()
+        Toast.makeText(context, "Producto agregado a Favoritos", Toast.LENGTH_SHORT).show()
         databaseViewModel.insertOrUpdateFavoriteProduct(productResponseToProduct(product))
     }
 }
