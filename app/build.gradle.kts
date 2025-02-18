@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "iesharia.retrofit2example"
+    namespace = "com.example.testcallapi"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "iesharia.retrofit2example"
+        applicationId = "com.example.testcallapi"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

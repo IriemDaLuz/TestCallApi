@@ -31,10 +31,11 @@ import androidx.room.Room
 import androidx.compose.ui.platform.LocalContext
 
 import com.example.testcallapi.FavouriteScreen
+import com.example.testcallapi.ProductList
 import com.example.testcallapi.ProductListScreen
 import com.example.testcallapi.data.ProductViewModel
 import com.example.testcallapi.SearchScreen
-import com.example.testcallapi.db.ProductDatabase
+import com.example.testcallapi.data.db.ProductDatabase
 import com.example.testcallapi.ui.theme.TestCallApiTheme
 
 class MainActivity : ComponentActivity() {

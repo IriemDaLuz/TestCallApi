@@ -9,8 +9,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.livedata.observeAsState
 import com.example.testcallapi.data.ProductDBViewModel
 import com.example.testcallapi.data.ProductViewModel
-import iesharia.retrofit2example.db.productResponseToProduct
-import iesharia.retrofit2example.network.ProductResponse
+import com.example.testcallapi.data.db.productResponseToProduct
+import com.example.testcallapi.network.product.model.ProductResponse
 
 
 @Composable
